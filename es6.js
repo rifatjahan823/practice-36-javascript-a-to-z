@@ -88,5 +88,6 @@ spasification:{
 }
 const{designation}=student;
 console.log(designation)
-const{color}=student.spasification.watch;
+const{color}=student.spasification?.watch? student.spasification?.watch:'no result' ;
 console.log(color)
+
